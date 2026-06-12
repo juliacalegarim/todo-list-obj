@@ -1,9 +1,9 @@
 <script setup>
   import { ref, computed } from 'vue'
   let tarefas = ref([
-    { id: 1, desc: 'Tarefa 1', status: 'pendente' },
-    { id: 2, desc: 'Tarefa 2', status: 'concluida' },
-    { id: 3, desc: 'Tarefa 3', status: 'concluida' }
+  { id: 1, desc: 'Prova Geografia', status: 'pendente' },
+  { id: 2, desc: 'Prova História', status: 'concluida' },
+  { id: 3, desc: 'Trabalho DevWeb', status: 'pendente' }
   ]);
   const novaTarefa = ref('')
   const posicaoAlterar = ref(-1)
@@ -100,4 +100,3 @@ li {
   text-decoration: line-through;
 }
 </style>
-
